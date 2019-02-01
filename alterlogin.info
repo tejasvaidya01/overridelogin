@@ -1,0 +1,4 @@
+name = alterlogin
+description = Alter the user login form
+core = 7.x
+files[] = alterlogin.module

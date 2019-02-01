@@ -1,0 +1,8 @@
+<?php
+// remove description from user login form text fields
+function alterlogin_form_user_login_alter(&$form, &$form_state) {
+	if($form_id == 'user_login_form'){
+  	$form['name']['#description'] = t('Enter your Department of LDAP username.');
+ 	}
+}
+?>
